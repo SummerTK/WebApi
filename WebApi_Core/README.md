@@ -1,6 +1,6 @@
-![img](file:///C:\Users\Less\AppData\Roaming\Tencent\Users\171699378\TIM\WinTemp\RichOle\}}`SXQQYGHXT]SIM0BF_BOB.png)
 
-![002](C:\Users\Less\Desktop\002.png)
+
+
 
 <!--添加Swagger 开始-->
 
@@ -10,11 +10,11 @@
 Install-Package Swashbuckle.AspNetCore -Pre
 ```
 
-![img](file:///C:\Users\Less\AppData\Roaming\Tencent\Users\171699378\TIM\WinTemp\RichOle\BY$BNG7K}L}_`O35V%@P66K.png)
+
 
 **双击Properties——点击生成——勾选XML文档文件**
 
-![img](file:///C:\Users\Less\AppData\Roaming\Tencent\Users\171699378\TIM\WinTemp\RichOle\LWOQ}GTB3DUZNI8A`OO]7P2.png)
+
 
 **双击Startup.cs——在ConfigureServices、Configure中添加以下内容：**
 
@@ -40,7 +40,7 @@ services.AddSwaggerGen(c =>
  });
 ```
 
-![3](C:\Users\Less\Desktop\3.png)
+
 
 **Configure：**
 
@@ -55,15 +55,15 @@ services.AddSwaggerGen(c =>
         });
 ```
 
-![4](C:\Users\Less\Desktop\4.png)
+
 
 **双击Properties下launchSettings.json——更改launchUrl中值为swagger（默认打开Swagger帮助页）：**
 
-![5](C:\Users\Less\Desktop\5.png)
+
 
 **运行测试**
 
-![6](C:\Users\Less\Desktop\6.png)
+
 
 <!--添加Swagger 结束-->
 
@@ -75,11 +75,11 @@ services.AddSwaggerGen(c =>
 Install-Package NLog.Extensions.Logging -Pre
 ```
 
-![7](C:\Users\Less\Desktop\7.png)
+
 
 **在根目录下添加nlog.config**
 
-![8](C:\Users\Less\Desktop\8.png)
+
 
 **更改nlog.config中内容如下：**
 
@@ -98,7 +98,7 @@ Install-Package NLog.Extensions.Logging -Pre
 </nlog>
 ```
 
-![9](C:\Users\Less\Desktop\9.png)
+
 
 **选择项目——右键——在文件资源管理器中打开文件夹打开——打开WebApi_Core.csproj——添加以下内容：**
 
@@ -108,7 +108,7 @@ Install-Package NLog.Extensions.Logging -Pre
   </ItemGroup>
 ```
 
-![10](C:\Users\Less\Desktop\10.png)
+
 
 **双击Startup.cs——更改Configure中内容：**
 
@@ -117,19 +117,19 @@ ILoggerFactory loggerFactory
 loggerFactory.AddNLog();
 ```
 
-![11](C:\Users\Less\Desktop\11.png)
+
 
 **在Controller中添加以下内容测试：**
 
-![12](C:\Users\Less\Desktop\12.png)
 
-![13](C:\Users\Less\Desktop\13.png)
+
+
 
 **选择项目——右键——在文件资源管理器中打开文件夹打开——打开bin—Debug—netcoreapp2.0—logs：**
 
-![14](C:\Users\Less\Desktop\14.png)
 
-![15](C:\Users\Less\Desktop\15.png)
+
+
 
 <!--添加NLog 结束-->
 
