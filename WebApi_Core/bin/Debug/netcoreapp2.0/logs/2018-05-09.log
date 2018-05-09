@@ -1,0 +1,21 @@
+2018-05-09 11:22:29.9667|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:54855/swagger/  
+2018-05-09 11:22:30.3279|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 467.4231ms 200 text/html
+2018-05-09 11:22:31.3539|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json  
+2018-05-09 11:22:31.4588|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:54855/swagger/swagger-ui-bundle.js.map  
+2018-05-09 11:22:32.0421|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 591.4408ms 404 text/plain
+2018-05-09 11:22:32.0926|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:54855/swagger/swagger-ui-standalone-preset.js.map  
+2018-05-09 11:22:32.1487|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.2356ms 404 text/plain
+2018-05-09 11:22:32.4434|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1091.358ms 200 application/json
+2018-05-09 11:22:37.4031|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:54855/api/Values  
+2018-05-09 11:22:37.8916|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApi_Core.Controllers.ValuesController.Get (WebApi_Core) with arguments ((null)) - ModelState is Valid
+2018-05-09 11:22:38.0275|INFO|WebApi_Core.Controllers.ValuesController|普通信息日志-----------
+2018-05-09 11:22:38.0320|ERROR|WebApi_Core.Controllers.ValuesController|错误日志-----------
+2018-05-09 11:22:38.0320|FATAL|WebApi_Core.Controllers.ValuesController|异常日志-----------
+2018-05-09 11:22:38.0320|WARN|WebApi_Core.Controllers.ValuesController|警告日志-----------
+2018-05-09 11:22:38.0320|WARN|WebApi_Core.Controllers.ValuesController|Log日志------------------
+2018-05-09 11:22:38.0320|INFO|WebApi_Core.Controllers.ValuesController|你访问了首页
+2018-05-09 11:22:38.0551|WARN|WebApi_Core.Controllers.ValuesController|警告信息
+2018-05-09 11:22:38.0624|ERROR|WebApi_Core.Controllers.ValuesController|错误信息
+2018-05-09 11:22:38.0910|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-09 11:22:38.1217|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApi_Core.Controllers.ValuesController.Get (WebApi_Core) in 309.6793ms
+2018-05-09 11:22:38.1578|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 773.5399ms 200 application/json; charset=utf-8

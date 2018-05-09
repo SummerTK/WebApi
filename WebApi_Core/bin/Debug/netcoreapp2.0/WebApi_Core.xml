@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi_Core</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi_Core.Controllers.ValuesController">
+            <summary>
+            测试页
+            </summary>
+        </member>
+    </members>
+</doc>
